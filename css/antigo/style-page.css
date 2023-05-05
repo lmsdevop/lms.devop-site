@@ -1,0 +1,36 @@
+.page-header{
+    background-color: #dd3f3f;
+    background-attachment: fixed;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.page-header__title{
+    text-align: center;
+    text-transform: uppercase;  
+}
+.page-header__title::after{
+    display: block;
+    content: "";
+    background-color: #fff;
+    height: 3px;
+    width: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+/*      CONTENT   */
+.page-content{
+    padding: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.page-content p{
+    color: #3a3a3a;
+    line-height: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text-center{
+    text-align: center;
+}

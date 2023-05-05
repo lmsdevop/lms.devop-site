@@ -1,0 +1,20 @@
+.page-header{
+    background-color: $cor-principal;
+    background-attachment: fixed;
+    color: #fff;
+    padding-top: 130px;
+    padding-bottom: 30px;
+    &__title{
+        text-align: center;
+        text-transform: uppercase;  
+    }
+    &__title::after{
+        display: block;
+        content: "";
+        background-color: #fff;
+        height: 3px;
+        width: 50px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}

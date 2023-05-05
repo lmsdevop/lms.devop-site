@@ -1,0 +1,30 @@
+// Abstracts
+@import 'abstracts/_colors';
+@import 'abstracts/_breakpoints';
+
+// Base
+@import 'base/_normalize';
+@import 'base/_fonts';
+@import 'base/_my-reset';
+
+// Layout
+@import 'layout/_header';
+@import 'layout/_footer';
+@import 'layout/_container';
+
+// Components
+@import 'components/_text-align';
+@import 'components/_depoiment';
+@import 'components/_formulary';
+@import 'components/_logo';
+@import 'components/_map';
+@import 'components/_page-content';
+@import 'components/_page-header';
+@import 'components/_services';
+@import 'components/_menu-principal';
+
+// Pages
+@import 'pages/_contact';
+@import 'pages/_about';
+@import 'pages/_home-page';
+@import 'pages/_portfolio';

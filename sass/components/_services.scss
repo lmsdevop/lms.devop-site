@@ -1,0 +1,15 @@
+.service{
+    padding: 30px 0;
+    overflow: auto;
+   &__item{
+        text-align: center;
+        margin-bottom: 50px;
+        @media(min-width: $breakpoint-md) {
+            float: left;
+            width: 33.333%;
+        }
+    }
+   &__text{
+        color: $color-reader;
+    }
+}
