@@ -330,7 +330,7 @@ body {
 
 .cabecalho {
   background-color: #fff;
-  padding: 15px;
+  padding: 15px 0;
   position: fixed;
   width: 100%; }
   @media (min-width: 768px) {
@@ -338,12 +338,12 @@ body {
       min-height: 100px; }
       .cabecalho .logo {
         float: left;
-        margin-top: 10px; }
+        margin-top: 8.5px; }
       .cabecalho .menu-principal {
         float: right;
         margin-top: 10px; }
-      .cabecalho .menu-principal__lista {
-        margin-bottom: 0; } }
+        .cabecalho .menu-principal__lista {
+          margin-bottom: 0; } }
 
 .rodape {
   color: #fff; }
