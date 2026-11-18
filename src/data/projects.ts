@@ -31,7 +31,8 @@ export type ProjectMeta = {
 export const projectMeta: Record<string, ProjectMeta> = {
   "fsy-app": {
     category: "app",
-    featured: true,
+    featured: false,
+    hidden: true,
     order: 1,
     hue: 268,
     liveUrl: "https://fsy-app-black.vercel.app",
@@ -90,7 +91,8 @@ export const projectMeta: Record<string, ProjectMeta> = {
 
   "wdd430-project": {
     category: "app",
-    featured: true,
+    featured: false,
+    hidden: true,
     order: 3,
     hue: 200,
     title: {
