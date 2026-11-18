@@ -96,7 +96,7 @@ function prettifyRepoName(name: string) {
 
 function toProject(repo: GithubRepo): Project | null {
   const meta = projectMeta[repo.name];
-  if (meta?.hidden || repo.fork) return null;
+  if (meta?.hidden || repo.fork || repo.archived || !meta) return null;
 
   const title = meta?.title ?? {
     pt: prettifyRepoName(repo.name),
@@ -178,7 +178,7 @@ function buildFallback(): GithubData {
   return {
     projects: sortProjects(projects),
     stats: {
-      repos: 24,
+      repos: 25,
       languages: 8,
       years: yearsSince(profile.codingSince),
       courses: coursesCompleted,
